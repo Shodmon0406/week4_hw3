@@ -13,9 +13,6 @@ namespace Vehicle.Classes
         {
             HasSidecar = hasSidecar;
         }
-        public override string ToString()
-        {
-            return $"Motocycle: {base.Make}, {base.Model}, {base.Year}, {HasSidecar}";
-        }
+        public override string ToString() => $"Motocycle: {base.Make}, {base.Model}, {base.Year}, {HasSidecar}";
     }
 }
