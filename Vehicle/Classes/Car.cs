@@ -13,9 +13,6 @@ namespace Vehicle.Classes
         {
             NumberOfDoors = numberOfDoors;
         }
-        public override string ToString()
-        {
-            return $"Car: {base.Make}, {base.Model}, {base.Year}, {NumberOfDoors}";
-        }
+        public override string ToString() => $"Car: {base.Make}, {base.Model}, {base.Year}, {NumberOfDoors}";
     }
 }

@@ -8,8 +8,8 @@ namespace Vehicle.Classes
 {
     internal class Motorcycle : Vehicle
     {
-        public string HasSidecar { get; set; }
-        public Motorcycle(string make, string model, int year, string hasSidecar) : base(make, model, year)
+        public bool HasSidecar { get; set; }
+        public Motorcycle(string make, string model, int year, bool hasSidecar) : base(make, model, year)
         {
             HasSidecar = hasSidecar;
         }
